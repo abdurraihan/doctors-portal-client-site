@@ -5,7 +5,7 @@ import Info from './Info/info'
 import MakeAppointment from './MakeAppoinment/MakeAppointment';
 import Services from './Services/Services';
 import Testimonials from './Testimonials/Testimonials';
-
+import Footet from '../../Shared/Footet';
 const Home = () => {
     return (
         <div className='px-12'>
@@ -15,6 +15,7 @@ const Home = () => {
           <MakeAppointment></MakeAppointment>
           <Testimonials></Testimonials>
           <Contact></Contact>
+          <Footet></Footet>
         </div>
     );
 };
